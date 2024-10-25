@@ -1,0 +1,182 @@
+local texturePack = {
+    foil = {
+        ids = { "rbxassetid://9920485426", "rbxassetid://9438480031" },
+        color = Color3.fromRGB(238, 238, 238)
+    },
+    asphalt = {
+        ids = { "rbxassetid://9920485426", "rbxassetid://9438480031" },
+        color = Color3.fromRGB(227, 227, 228)
+    },
+    basalt = {
+        ids = { "rbxassetid://9873284556", "rbxassetid://9873284556" },
+        color = Color3.fromRGB(160, 160, 158)
+    },
+    bedrock = {
+        ids = { "rbxassetid://9438448031", "rbxassetid://9869709432" },
+        color = Color3.fromRGB(126, 126, 126)
+    },
+    bricks = {
+        ids = { "rbxassetid://9413860007", "rbxassetid://9438448031" },
+        color = Color3.fromRGB(173, 51, 28)
+    },
+    crackedBricks = {
+        ids = { "rbxassetid://9438448031", "rbxassetid://9413860007" },
+        color = Color3.fromRGB(126, 126, 126)
+    },
+    dirt = {
+        ids = { "rbxassetid://9850035632", "rbxassetid://9413856729" },
+        color = Color3.fromRGB(121, 85, 58)
+    },
+    glass = {
+        ids = { "rbxassetid://9869704538", "rbxassetid://9438448031" },
+        color = Color3.fromRGB(177, 209, 227)
+    },
+    grass = {
+        ids = { "rbxassetid://9850047022", "rbxassetid://9413856729" },
+        color = Color3.fromRGB(120, 200, 82)
+    },
+    leaves = {
+        ids = { "rbxassetid://9850038973", "rbxassetid://9869694575" },
+        color = Color3.fromRGB(75, 151, 42)
+    },
+    netherrack = {
+        ids = { "rbxassetid://9873274480", "rbxassetid://9873274480" },
+        color = Color3.fromRGB(112, 55, 58)
+    },
+    obsidian = {
+        ids = { "rbxassetid://9869699577", "rbxassetid://9438448031" },
+        color = Color3.fromRGB(20, 18, 29)
+    },
+    sand = {
+        ids = { "rbxassetid://9869704538", "rbxassetid://9438448031" },
+        color = Color3.fromRGB(223, 195, 163)
+    },
+    stone = {
+        ids = { "rbxassetid://9438453972", "rbxassetid://9869709432" },
+        color = Color3.fromRGB(128, 128, 128)
+    },
+    stoneBricks = {
+        ids = { "rbxassetid://9873281483", "rbxassetid://9413860007" },
+        color = Color3.fromRGB(126, 126, 126)
+    },
+    wool = {
+        ids = { "rbxassetid://9869709432", "rbxassetid://9438448031" },
+        color = Color3.fromRGB(235, 236, 236)
+    },
+    wood = {
+        ids = { "rbxassetid://9438448031", "rbxassetid://9850038973" },
+        color = Color3.fromRGB(150, 110, 77)
+    },
+    planks = {
+        ids = { "rbxassetid://9413856729", "rbxassetid://9850035632" },
+        color = Color3.fromRGB(154, 111, 63)
+    },
+    cobblestone = {
+        ids = { "rbxassetid://9920485426", "rbxassetid://9438448032" },
+        color = Color3.fromRGB(218, 219, 219)
+    },
+    diamondplate = {
+        ids = { "rbxassetid://9873284556", "rbxassetid://9873284556" },
+        color = Color3.fromRGB(210, 210, 210)
+    },
+    metal = {
+        ids = { "rbxassetid://9873284556", "rbxassetid://9873284556" },
+        color = Color3.fromRGB(226, 226, 226)
+    },
+    pavement = {
+        ids = { "rbxassetid://9920485426", "rbxassetid://9438448032" },
+        color = Color3.fromRGB(218, 218, 219)
+    },
+    -- Additional materials from the original data
+    crackedlava = {
+        ids = { "rbxassetid://9873284556", "rbxassetid://9873284556" },
+        color = Color3.fromRGB(76, 79, 81)
+    },
+    fabric = {
+        ids = { "rbxassetid://9873284556", "rbxassetid://9438453972" },
+        color = Color3.fromRGB(221, 221, 221)
+    },
+    glacier = {
+        ids = { "rbxassetid://9920485426", "rbxassetid://9438480031" },
+        color = Color3.fromRGB(225, 229, 229)
+    },
+    ground = {
+        ids = { "rbxassetid://9873284556", "rbxassetid://9873284556" },
+        color = Color3.fromRGB(165, 165, 160)
+    },
+    ice = {
+        ids = { "rbxassetid://9920485426", "rbxassetid://9438480031" },
+        color = Color3.fromRGB(235, 239, 241)
+    },
+    limestone = {
+        ids = { "rbxassetid://9873284556", "rbxassetid://9873284556" },
+        color = Color3.fromRGB(250, 248, 243)
+    },
+    marble = {
+        ids = { "rbxassetid://9873284556", "rbxassetid://9873284556" },
+        color = Color3.fromRGB(181, 183, 193)
+    },
+    mud = {
+        ids = { "rbxassetid://9920485426", "rbxassetid://9438480031" },
+        color = Color3.fromRGB(193, 192, 193)
+    },
+    pebble = {
+        ids = { "rbxassetid://9873284556", "rbxassetid://9873284556" },
+        color = Color3.fromRGB(204, 203, 201)
+    },
+    rock = {
+        ids = { "rbxassetid://9920485426", "rbxassetid://9920485426" },
+        color = Color3.fromRGB(211, 211, 210)
+    },
+    corrodedmetal = {
+        ids = { "rbxassetid://9873284556", "rbxassetid://9873284556" },
+        color = Color3.fromRGB(206, 177, 163)
+    },
+    salt = {
+        ids = { "rbxassetid://9873284556", "rbxassetid://9873284556" },
+        color = Color3.fromRGB(249, 249, 249)
+    },
+    sandstone = {
+        ids = { "rbxassetid://9920485426", "rbxassetid://9438480031" },
+        color = Color3.fromRGB(241, 234, 230)
+    },
+    slate = {
+        ids = { "rbxassetid://9920485426", "rbxassetid://9438480031" },
+        color = Color3.fromRGB(235, 234, 235)
+    },
+    snow = {
+        ids = { "rbxassetid://9873284556", "rbxassetid://9873284556" },
+        color = Color3.fromRGB(239, 240, 240)
+    },
+    woodplanks = {
+        ids = { "rbxassetid://9920485426", "rbxassetid://9438480031" },
+        color = Color3.fromRGB(207, 208, 206)
+    }
+}
+
+local function applyTextureToPart(part, textureType)
+    local textureData = texturePack[textureType]
+    
+    if textureData then
+        part.Color = textureData.color
+        
+        for _, face in pairs(Enum.NormalId:GetEnumItems()) do
+            local texture = Instance.new("Decal")
+            texture.Texture = textureData.ids[1]
+            texture.Face = face
+            texture.Parent = part
+        end
+    else
+        warn("Texture type not found: " .. textureType)
+    end
+end
+
+for _, part in pairs(workspace:GetDescendants()) do
+    if part:IsA("BasePart") then
+        local materialName = part.Material.Name:lower()
+        
+        if texturePack[materialName] then
+            applyTextureToPart(part, materialName)
+        end
+    end
+end
