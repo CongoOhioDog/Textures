@@ -1,0 +1,105 @@
+local materials = {
+    asphalt = {
+        color = {227, 227, 228, 234}
+    },
+    basalt = {
+        color = {160, 160, 158, 238}
+    },
+    brick = {
+        color = {229, 214, 205, 227}
+    },
+    cobblestone = {
+        color = {218, 219, 219, 243}
+    },
+    concrete = {
+        color = {225, 225, 224, 255}
+    },
+    crackedlava = {
+        color = {76, 79, 81, 156}
+    },
+    diamondplate = {
+        color = {210, 210, 210, 255}
+    },
+    fabric = {
+        color = {221, 221, 221, 255}
+    },
+    glacier = {
+        color = {225, 229, 229, 243}
+    },
+    glass = {
+        color = {254, 254, 254, 7}
+    },
+    granite = {
+        color = {210, 206, 200, 255}
+    },
+    grass = {
+        color = {100, 150, 100, 255}
+    },
+    ground = {
+        color = {165, 165, 160, 240}
+    },
+    ice = {
+        color = {235, 239, 241, 248}
+    },
+    leafygrass = {
+        color = {237, 171, 233, 255}
+    },
+    limestone = {
+        color = {250, 248, 243, 250}
+    },
+    marble = {
+        color = {181, 183, 193, 249}
+    },
+    metal = {
+        color = {226, 226, 226, 255}
+    },
+    mud = {
+        color = {193, 192, 193, 252}
+    },
+    pavement = {
+        color = {218, 218, 219, 236}
+    },
+    pebble = {
+        color = {204, 203, 201, 234}
+    },
+    plastic = {
+        color = {255, 255, 255, 255}
+    },
+    rock = {
+        color = {211, 211, 210, 248}
+    },
+    corrodedmetal = {
+        color = {206, 177, 163, 180}
+    },
+    salt = {
+        color = {249, 249, 249, 255}
+    },
+    sand = {
+        color = {218, 216, 210, 240}
+    },
+    sandstone = {
+        color = {241, 234, 230, 246}
+    },
+    slate = {
+        color = {235, 234, 235, 254}
+    },
+    snow = {
+        color = {239, 240, 240, 255}
+    },
+    wood = {
+        color = {217, 209, 208, 255}
+    },
+    woodplanks = {
+        color = {207, 208, 206, 254}
+    }
+}
+
+for _, part in pairs(workspace:GetDescendants()) do
+    if part:IsA("BasePart") then
+        local materialSettings = materials[part.Material.Name:lower()]
+        if materialSettings then
+            part.Material = Enum.Material.SmoothPlastic
+            part.Color = Color3.fromRGB(unpack(materialSettings.color))
+        end
+    end
+end
